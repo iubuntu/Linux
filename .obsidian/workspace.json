@@ -1,0 +1,261 @@
+{
+  "main": {
+    "id": "ab5ad2e7e6c2b20e",
+    "type": "split",
+    "children": [
+      {
+        "id": "6df72d9017c60ff4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e274d0ede8e2b523",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Punctuation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "68e3489e837cfe2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Shell.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cc57d02acb606b5a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Shell.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c22a0207df2c49b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 File system management.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9efdc21d7d102e5e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 Managing users and groups.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8412d5414e54ca06",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 Managing users and groups.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0985a7c092181bbf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04 Managing file system permissions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "eabeeedd652be19b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04 Managing file system permissions.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "581837f41226da7e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Punctuation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 8
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3bc62a37ad76e114",
+    "type": "split",
+    "children": [
+      {
+        "id": "60ad398b1a8d1395",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "31086e187f7e0d00",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "064a7856b331a42b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5558123a67a047db",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "6ffbf717510ad1d2",
+    "type": "split",
+    "children": [
+      {
+        "id": "21fd16fbaab2e394",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3f4a914309cbce09",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Punctuation.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ee738793a8ced140",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Punctuation.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "589eae046ea244fc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "85349c8f2f21685c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Punctuation.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 209.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false
+    }
+  },
+  "active": "581837f41226da7e",
+  "lastOpenFiles": [
+    "01 Shell.md",
+    "Untitled.md",
+    "05  Package Management.md",
+    "04 Managing file system permissions.md",
+    "03 Managing users and groups.md",
+    "02 File system management.md",
+    "04 Basic file permissions.md",
+    "Bash/PROMPTING characters.md",
+    "Punctuation.md",
+    "00 workflow.md",
+    "Bash",
+    "attachment"
+  ]
+}
