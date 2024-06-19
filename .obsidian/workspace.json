@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Shell.md",
+                "file": "09 lvm.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,14 +121,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05  Package Management.md",
+                "file": "06 Process Management.md",
                 "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "403d1dce4453966f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f8d3d6470534152f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "09 lvm.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -194,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "05  Package Management.md",
+                "file": "09 lvm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "05  Package Management.md",
+                "file": "09 lvm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "05  Package Management.md"
+                "file": "09 lvm.md"
               }
             }
           }
@@ -257,15 +281,18 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "bd8f6e39548b3c37",
+  "active": "68e3489e837cfe2f",
   "lastOpenFiles": [
-    "06 Process Management.md",
-    "05  Package Management.md",
-    "Punctuation.md",
     "01 Shell.md",
+    "Punctuation.md",
+    "09 lvm.md",
+    "attachment/Pasted image 20240619204047.png",
+    "Untitled.md",
+    "06 Process Management.md",
+    "02 File system management.md",
+    "05  Package Management.md",
     "04 Managing file system permissions.md",
     "03 Managing users and groups.md",
-    "02 File system management.md",
     "04 Basic file permissions.md",
     "Bash/PROMPTING characters.md",
     "00 workflow.md",
