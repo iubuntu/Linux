@@ -34,6 +34,38 @@ Out[6]: 100
 
 The dotted-quad notation is simply a way of writing the whole  used throughout the Internet system—using convenient decimal numbers. 
 ![[ipv4_address.png]]
+- special use ip address
+![[ip_special_use.png]]
+## Subnet Addressing
+![[ip_network_and_host.png]]
+- network id
+- host id
+
+![[ip_subnet.png]]
+
+#### CIDR Notation
+- 192.168.0.100/24
+- 10.0.0.10/8
+- 172.16.1.100/26
+#### Subnet Mask Notation
+- 255.255.255.0
+- 255.0.0.0
+- 255.255.255.192
+#### network address and broadcast address
+
+|                   | decimal         | binary                                                   |
+| ----------------- | --------------- | -------------------------------------------------------- |
+| Ip address        | 192.168.2.4     | 1100 0000. 1010 1000. 0000 0010. 0000 0100               |
+| Subnet mask       | 255.255.255.240 | 1111    1111.  1111   1111.   1111    1111. 1111    0000 |
+| Network address   | 192.168.2.0     | 1100 0000. 1010 1000. 0000 0010. 0000 0000               |
+| Broadcast address | 192.168.2.15    | 1100 0000. 1010 1000. 0000 0010. 0000 1111               |
+
+
+![[Pasted image 20240724194854.png]]
+
+
+
+![[ip_broadcast_address.png]]
 ## Classful Addressing
 
 The IPv4 address space was originally divided into five classes. 
@@ -49,9 +81,51 @@ class E addresses remain reserved.
 ![[ipv4_class.png]]
 
 ![[ipv4_class_space_partitioning.png]]
-## Subnet Addressing
+## Variable-Length Subnet Masks
+
+- `/24`
+- `/25`
+- `/8`
+- `/9`
+- ...
+
+# ip configuration
+## interface
+```
+[root@localhost ~]# ip link show
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+2: enp0s1: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP mode DEFAULT group default qlen 1000
+    link/ether 76:c1:fc:53:8b:4b brd ff:ff:ff:ff:ff:ff
+```
+
+- lo
+- eth0
+- eth1
+- en0
+- enp...
+## NetworkManager
+- GUI
+- nmtui
+- nmcli
+## method
+- DHCP
+- manual
+## ip command
 
 
+# switch 
+
+![[switch.png]]
+## Mac Address
+- `76:c1:fc:53:8b:4b`
+
+# router
+
+![[router.png]]
+- gateway
+---
+# DNS
 
 # The Seven-Layer OSI Model
 ![[OSI.png]]
@@ -73,5 +147,7 @@ This layer provides a means of transporting data across a physical network. Its 
 The layer at the bottom of the OSI model is the physical medium through which network data is transferred. This layer defines the physical and electrical nature of all hardware used, including voltages, hubs, network adapters, repeaters, and cabling specifications. The physical layer establishes and terminates connections, provides a means of sharing communication resources, and converts signals from digital to analog and vice versa. 
 
 ## Links
-[OSI](https://www.cloudflare.com/en-au/learning/ddos/glossary/open-systems-interconnection-model-osi/)
-
+- [OSI](https://www.cloudflare.com/en-au/learning/ddos/glossary/open-systems-interconnection-model-osi/)
+- [What Is a Subnet](https://gcore.com/learning/what-is-a-subnet-how-subnetting-works/)
+- [ip ](https://access.redhat.com/sites/default/files/attachments/rh_ip_command_cheatsheet_1214_jcs_print.pdf)
+- 
